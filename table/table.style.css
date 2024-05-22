@@ -1,0 +1,15 @@
+@charset "utf-8";
+table, th, td{
+    border: solid 1px black;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+body{
+    background-color: aquamarine;
+}
+th, td{
+    padding: 10px;
+}
+caption{
+    font-family: "HGS創英角ﾎﾟｯﾌﾟ体","メイリオ", "游明朝", serif;
+}
