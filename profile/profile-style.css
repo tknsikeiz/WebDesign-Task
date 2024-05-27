@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.a-blue{
+    color: blue;
+}
+#cyan{
+    color: cyan;
+}
+#magenta{
+    color: magenta;
+}
+.yellow{
+    background-color: yellow;
+}
+span{
+    border: solid 3px green;
+}
