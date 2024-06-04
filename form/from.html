@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>入力フォーム</title>
+    <link rel="stylesheet" href="from-style.css">
+</head>
+
+<body>
+    <h1>会員登録</h1>
+    <p>以下の情報を入力し、確認ボタンを押してください。</p>
+    <form class="center" action="#" method="post">
+        <fieldset>
+            <table>
+                <tr>
+                    <th><label for="name">性</label></th>
+                    <td>
+                        :<input type="text" name="last_name"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="name">名</label></th>
+                    <td>
+                        :<input type="text" name="first_name"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="address">住所</label></th>
+                    <td>
+                        :<input type="text" name="address"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="email">メールアドレス</label></th>
+                    <td>
+                        :<input type="email" name="email"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="tel">電話番号</label></th>
+                    <td>
+                        :<input type="tel" name="tel"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="birthday">生年月日</label></th>
+                    <td>
+                        :<input type="date" name="birthday" value="1990-01-01"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="age">年齢</label></th>
+                    <td>
+                        :<input type="number" name="age" min="0" max="150"> 歳<br>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="gender">性別</label></th>
+                    <td>
+                        :<label><input type="radio" name="gender" value="男「0」"> 男</label>
+                        <label><input type="radio" name="gender" value="女「1」"> 女</label>
+                        <label><input type="radio" name="gender" value="その他「2」"> その他</label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>パスワード</legend>
+            英数字8文字以上で入力してください。<br>
+            <input type="password" name="password"><br>
+            確認のためもう一度入力してください。<br>
+            <input type="password" name="password_confin">
+        </fieldset>
+        <fieldset>
+            <legend>希望メールマガジン</legend>
+            <label><input type="checkbox" name="magagzine" value="IT「1」"> IT</label>
+            <label><input type="checkbox" name="magagzine" value="営業「2」"> 営業</label>
+            <label><input type="checkbox" name="magagzine" value="接客「3」"> 接客</label>
+            <label><input type="checkbox" name="magagzine" value="医療「4」"> 医療</label>
+        </fieldset>
+        <fieldset>
+            <legend>利用規約</legend>
+            <a href="terms.html" target="_blank">利用規約を確認する</a><br>
+            <label><input type="checkbox" name="terms" value="agree"> 規約に同意する</label>
+        </fieldset>
+        <button type="reset">内容をクリアする</button>
+        <button type="submit">確認ボタン</button>
+    </form>
+</body>
+
+</html>
