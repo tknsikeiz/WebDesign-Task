@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+table, th ,td{
+    border: solid 3px whitesmoke;
+    border-collapse: collapse;
+}
+th{
+    background-color: gray;
+    color: white;
+    vertical-align: top;
+}
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+td{
+    background-color: burlywood;
+}
+.red{
+    background-color: red;
+    border-radius: 3px;
+    font-size: 0.7rem;
+}
+.smoal{
+    font-size: 8px;
+}
+table{
+    margin-bottom: 15px;
+}
