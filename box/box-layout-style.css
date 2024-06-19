@@ -21,7 +21,7 @@ h2{
 }
 .box{
     display: flex;
-    background-color: rgb(48, 42, 131);
+    background-color: rgb(127, 159, 204);
     flex-wrap: wrap;
     justify-content: center;
 }
